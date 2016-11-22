@@ -65,7 +65,9 @@ if __name__=="__main__":
     m=Mother(word, word3)
     d=Daughter(word, word2+word3)
     m.get__repr()
-    d.get__repr()
+    d.get__repr() #пострадать фигней:выполнено
+
+
     cl=['More black than white','More white than black']
     kl= ['Sea', 'River', 'Alien']
     c=random.choice(cl)
@@ -73,5 +75,4 @@ if __name__=="__main__":
     z=Zebra('Marty', randrange(1, 13), c)
     d=Dolphin('Fisher', randrange(1, 13), k)
     z.prints()
-    d.prints()
-
+    d.prints() #аярыбаярыба
