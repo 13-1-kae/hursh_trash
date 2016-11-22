@@ -57,7 +57,7 @@ if __name__=="__main__":
     y=randrange(1, 13)
     T=Triangle(x, y)
     R=Rectangle(x, y)
-    print (' Площадь треугольника:', T.area(), 'Площадь прямоугольника:', R.area()) #мухахашечки
+    print ('Площадь треугольника:', T.area(), 'Площадь прямоугольника:', R.area()) #мухахашечки
 
     word= ' La'
     word2= '-la'
@@ -72,9 +72,9 @@ if __name__=="__main__":
     kl= ['Sea', 'River', 'Alien', 'Shark']
     c=random.choice(cl)
     k=random.choice(kl)
-    z=Zebra('Marty', randrange(1, 13), c)
-    d=Dolphin('Fisher', randrange(1, 13), k)
+    z=Zebra('  Marty', randrange(1, 13), c)
+    d=Dolphin('  Fisher', randrange(1, 13), k)
     z.prints()
     d.prints()
     if d.kind=='Shark':
-        print('Ам-ням-ням!') #аярыбаярыба
+        print('   Ам-ням-ням!') #аярыбаярыба
