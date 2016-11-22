@@ -68,11 +68,13 @@ if __name__=="__main__":
     d.get__repr() #пострадать фигней:выполнено
 
 
-    cl=['More black than white','More white than black']
-    kl= ['Sea', 'River', 'Alien']
+    cl=['More black than white','More white than black', 'Checkerboard']
+    kl= ['Sea', 'River', 'Alien', 'Shark']
     c=random.choice(cl)
     k=random.choice(kl)
     z=Zebra('Marty', randrange(1, 13), c)
     d=Dolphin('Fisher', randrange(1, 13), k)
     z.prints()
-    d.prints() #аярыбаярыба
+    d.prints()
+    if d.kind=='Shark':
+        print('Ам-ням-ням!') #аярыбаярыба
